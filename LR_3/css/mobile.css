@@ -1,0 +1,42 @@
+@media (min-width: 320px) {
+   /* Базовые стили (для всех устройств) */
+body {
+    font-size: 0.875rem; /* 14px */
+  }
+  
+  h1 {
+    font-size: 1.5rem; /* 24px */
+    margin: 0.5rem 0;
+  }
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 0.875rem; /* 14px */
+  }
+
+  header ul{
+    margin-left: 40rem;
+  }
+
+  header img{
+    margin-left:20rem
+  }
+  
+  main {
+    flex-direction: column;
+  }
+  
+  .text, .image {
+    width: 100%;
+  }
+  
+  .image img {
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+  
+  footer {
+    font-size: 0.75rem; /* 12px */
+  }
+}
